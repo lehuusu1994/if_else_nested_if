@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let number1 = parseInt(prompt("Nhập số thứ nhất :"));
+      let number2 = parseInt(prompt("Nhập số thứ hai:"));
+      let number3 = parseInt(prompt("Nhập số thứ ba :"));
+      if (number1 > number2) {
+        if (number1 > number3) {
+          document.write(number1 + " Là số lớn nhất");
+        } else {
+          document.write(number3 + " Là số lớn nhất");
+        }
+      } else {
+        if (number2 > number3) {
+          document.write(number2 + "Là số Lớn nhất");
+        } else {
+          document.write(number3 + " Là số lớn nhất");
+        }
+      }
+    </script>
+  </body>
+</html>

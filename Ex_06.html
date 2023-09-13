@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let doanhSo = parseInt(prompt("Nhập doanh số bán hàng"));
+      const LUONG = 6000000;
+      let tongLuong = 0;
+      if (doanhSo >= 100000000) {
+        tongLuong = doanhSo * (15 / 100) + LUONG;
+      } else if (doanhSo < 100000000 && doanhSo >= 50000000) {
+        tongLuong = doanhSo * (10 / 100) + LUONG;
+      } else if (doanhSo < 50000000 && doanhSo > 0) {
+        tongLuong = doanhSo * (5 / 100) + LUONG;
+      } else {
+        document.write
+      }
+      document.write("Tổng số tiền bạn nhận được :" + tongLuong);
+    </script>
+  </body>
+</html>
